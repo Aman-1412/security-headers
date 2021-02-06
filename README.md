@@ -1,7 +1,7 @@
 # security-headers
 JS which can be deployed as a Cloudflare worker script to modify your headers for added security
 
-Check - [security-headers](https://www.securityheaders.com/) for more details
+Check - [security-headers](https://securityheaders.com/faq/) for more details
 
 For a website that is served via Cloudflare, you can modify the headers using the script included here. You can change the header values[1], add new headers[1] or remove existing headers[2]. 
 
