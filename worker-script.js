@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 
 let securityHeaders = {
 	"Content-Security-Policy" : "upgrade-insecure-requests",
-    "Permissions-Policy" : "accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()",
+	"Permissions-Policy" : "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
 	"X-Xss-Protection" : "1; mode=block",
 	"X-Frame-Options" : "DENY",
 	"X-Content-Type-Options" : "nosniff",
